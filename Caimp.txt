@@ -1,0 +1,42 @@
+
+Models
+
+Spatial Evaluation order
+
+A: Synchronic, always from the same corner.
+
+D: Asynchronic, random with replacement.
+
+E: Synchronic, starting from a random corner each time step.
+
+Time Type
+
+C: Continuous, one array of states, the cells feel the changes in
+	the neighborhood inmediatly.
+
+D: Discrete, two arrays of states (Actual state & Next State), the cells
+	feel the changes in the neighborhood the next time step.
+
+Event Type
+
+1: The two events are independent of each other and occur at the same
+	time
+
+2: All cells in the array are considered for  exctinction events, then all 
+	cells are considered for colonization only if survived.
+ 
+3: The 2xNxN events are considered random without replacement.
+
+4: The extinction event comes first and if the cell survives 
+	a colonization event occurs.
+
+Arguments
+
+gcaimp file.inp file.sed|file.set graphics(S|N) 
+	Inter Init dens(S|N) SalvaMap(S|N) SalvaSed(S|N)
+	NombreBase
+
+ 
+
+
+
