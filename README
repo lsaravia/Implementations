@@ -1,0 +1,10 @@
+
+This is the code for the article:
+﻿
+Ruxton, G. D. and Saravia, L. A. 1998. The need for biological realism in the updating
+of cellular automata models. - Ecological Modelling 107: 105-112.
+
+
+It is a birth-death-dispersion cellular automata model with different updating options.
+
+The code is old a needs some adjustmenents to compile.
